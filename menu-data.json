@@ -1,0 +1,126 @@
+{
+  "restaurant": {
+    "name": "Bistrô & Sabor Contemporâneo",
+    "tagline": "Experiência gastronômica artesanal & autêntica",
+    "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=200&q=80",
+    "banner": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+    "hours": "Terça a Domingo: 18h30 às 23h30",
+    "address": "Av. Principal, 1200 - Centro",
+    "wifi": {
+      "network": "Bistro_Clientes",
+      "password": "saborartesanal"
+    },
+    "social": {
+      "whatsapp": "5511999998888",
+      "whatsappMessage": "Olá! Estou no restaurante e gostaria de mais informações.",
+      "instagram": "https://instagram.com",
+      "maps": "https://maps.google.com"
+    },
+    "googleSheetCsvUrl": ""
+  },
+  "categories": [
+    { "id": "entradas", "name": "Entradas", "icon": "🥗" },
+    { "id": "pratos-principais", "name": "Pratos Principais", "icon": "🥩" },
+    { "id": "artesanais", "name": "Hambúrgueres", "icon": "🍔" },
+    { "id": "bebidas", "name": "Bebidas & Drinks", "icon": "🍹" },
+    { "id": "sobremesas", "name": "Sobremesas", "icon": "🍰" }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "categoryId": "entradas",
+      "name": "Bruschetta Italiana Tradicional",
+      "description": "Fatias de pão rústico de fermentação natural, tomates concassé marinados em azeite extravirgem, manjericão fresco e lascas de parmesão.",
+      "price": 28.90,
+      "image": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=600&q=80",
+      "badge": "Mais Pedido",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["Vegetariano", "Artesanal"]
+    },
+    {
+      "id": "2",
+      "categoryId": "entradas",
+      "name": "Dadinhos de Tapioca com Geleia de Pimenta",
+      "description": "Dadinhos crocantes de queijo coalho e tapioca granulada, servidos com redução artesanal de pimenta agridoce.",
+      "price": 32.00,
+      "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&w=600&q=80",
+      "badge": "Chef",
+      "badgeColor": "emerald",
+      "available": true,
+      "tags": ["Sem Glúten", "Vegetariano"]
+    },
+    {
+      "id": "3",
+      "categoryId": "pratos-principais",
+      "name": "Filé Mignon ao Molho de Vinho Rótulo Tinto",
+      "description": "Medalhão de filé mignon grelhado ao ponto, redução encorpada de vinho tinto e risoto cremoso de queijo parmesão e ervas finas.",
+      "price": 79.90,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+      "badge": "Especialidade",
+      "badgeColor": "red",
+      "available": true,
+      "tags": ["Gourmet"]
+    },
+    {
+      "id": "4",
+      "categoryId": "pratos-principais",
+      "name": "Salmão Grelhado com Crosta de Ervas",
+      "description": "Lombo de salmão selado com manteiga de ervas, acompanhado de purê aveludado de mandioquinha e legumes grelhados.",
+      "price": 74.50,
+      "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80",
+      "badge": "",
+      "badgeColor": "",
+      "available": true,
+      "tags": ["Peixes", "Saudável"]
+    },
+    {
+      "id": "5",
+      "categoryId": "artesanais",
+      "name": "Smash Burger Trufado Duplo",
+      "description": "Dois ultra smash blends de 90g, queijo cheddar inglês derretido, maionese artesanal trufada, cebola caramelizada em pão brioche amanteigado.",
+      "price": 44.00,
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+      "badge": "Favorito",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["Artesanal", "Burger"]
+    },
+    {
+      "id": "6",
+      "categoryId": "bebidas",
+      "name": "Gin Tônica Frutas Vermelhas & Alecrim",
+      "description": "Gin premium infusionado, água tônica botânica, seleção de amoras, framboesas, zimbro e ramo aromático de alecrim fresco.",
+      "price": 34.00,
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80",
+      "badge": "Drink Autoral",
+      "badgeColor": "purple",
+      "available": true,
+      "tags": ["Alcoólico", "Refrescante"]
+    },
+    {
+      "id": "7",
+      "categoryId": "bebidas",
+      "name": "Limonada Suíça com Hortelã e Gengibre",
+      "description": "Limonada batida na hora com leite condensado opcional, fatias de limão siciliano, folhas frescas de hortelã e toque sutil de gengibre.",
+      "price": 16.00,
+      "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80",
+      "badge": "",
+      "badgeColor": "",
+      "available": true,
+      "tags": ["Sem Álcool", "Refrescante"]
+    },
+    {
+      "id": "8",
+      "categoryId": "sobremesas",
+      "name": "Petit Gâteau com Sorvete Artesanal de Baunilha",
+      "description": "Bolo quente de chocolate belga 70% com interior cremoso e fluído, acompanhado de sorvete de baunilha de Madagascar e calda de frutas.",
+      "price": 29.00,
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80",
+      "badge": "Clássico",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["Doce", "Sobremesa"]
+    }
+  ]
+}
