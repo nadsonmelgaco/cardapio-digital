@@ -107,6 +107,47 @@ function renderCategories() {
     btn.onclick = () => selectCategory(cat.id);
     bar.appendChild(btn);
   });
+
+  setTimeout(updateCategoryNavButtons, 50);
+}
+
+// Navegação horizontal de categorias por setas (versão PC / Desktop)
+function scrollCategories(distance) {
+  const bar = document.getElementById('category-bar');
+  if (bar) {
+    bar.scrollBy({ left: distance, behavior: 'smooth' });
+    setTimeout(updateCategoryNavButtons, 300);
+  }
+}
+
+// Atualiza visibilidade e estado das setas de categorias
+function updateCategoryNavButtons() {
+  const bar = document.getElementById('category-bar');
+  const prevBtn = document.getElementById('btn-category-prev');
+  const nextBtn = document.getElementById('btn-category-next');
+  if (!bar || !prevBtn || !nextBtn) return;
+
+  const hasOverflow = bar.scrollWidth > bar.clientWidth + 4;
+  if (!hasOverflow) {
+    prevBtn.style.display = 'none';
+    nextBtn.style.display = 'none';
+    return;
+  } else {
+    // Em telas md+ volta a exibir conforme estilos
+    prevBtn.style.display = '';
+    nextBtn.style.display = '';
+  }
+
+  const atStart = bar.scrollLeft <= 5;
+  const atEnd = bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 5;
+
+  prevBtn.disabled = atStart;
+  prevBtn.style.opacity = atStart ? '0.25' : '1';
+  prevBtn.style.cursor = atStart ? 'default' : 'pointer';
+
+  nextBtn.disabled = atEnd;
+  nextBtn.style.opacity = atEnd ? '0.25' : '1';
+  nextBtn.style.cursor = atEnd ? 'default' : 'pointer';
 }
 
 function getCategoryBtnClass(isActive) {
@@ -223,7 +264,7 @@ function renderItemCard(item) {
   `;
 }
 
-// Configura os listeners de busca
+// Configura os listeners de busca e navegação
 function setupEventListeners() {
   const searchInput = document.getElementById('search-input');
   const clearBtn = document.getElementById('clear-search');
@@ -242,6 +283,22 @@ function setupEventListeners() {
     }
     renderMenuItems();
   });
+
+  // Listener para rolagem de categorias e rodinha do mouse no PC
+  const categoryBar = document.getElementById('category-bar');
+  if (categoryBar) {
+    categoryBar.addEventListener('scroll', updateCategoryNavButtons, { passive: true });
+    
+    // Suporte para rolar categorias horizontalmente com a rodinha do mouse no PC
+    categoryBar.addEventListener('wheel', (e) => {
+      if (e.deltaY !== 0) {
+        e.preventDefault();
+        categoryBar.scrollLeft += e.deltaY;
+      }
+    }, { passive: false });
+  }
+
+  window.addEventListener('resize', updateCategoryNavButtons);
 }
 
 function clearSearch() {

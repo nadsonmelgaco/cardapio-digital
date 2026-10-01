@@ -150,8 +150,33 @@
         </button>
       </div>
 
-      <!-- Barra Horizontal de Categorias (Scrollable) -->
-      <nav id="category-bar" class="flex gap-2 overflow-x-auto no-scrollbar py-0.5" aria-label="Categorias"></nav>
+      <!-- Barra Horizontal de Categorias com setas de navegação (PC / Desktop) -->
+      <div class="relative flex items-center">
+        <!-- Seta Esquerda (PC) -->
+        <button 
+          id="btn-category-prev" 
+          type="button"
+          aria-label="Rolar categorias para a esquerda"
+          onclick="scrollCategories(-220)"
+          class="hidden md:flex items-center justify-center flex-shrink-0 mr-1.5 w-8 h-8 rounded-full bg-gray-900/95 border border-gray-700 hover:border-amber-500 text-gray-300 hover:text-amber-400 shadow-md backdrop-blur transition-all cursor-pointer"
+        >
+          <i data-lucide="chevron-left" class="w-4 h-4"></i>
+        </button>
+
+        <!-- Barra Horizontal de Categorias (Scrollable) -->
+        <nav id="category-bar" class="flex gap-2 overflow-x-auto no-scrollbar py-0.5 scroll-smooth flex-1" aria-label="Categorias"></nav>
+
+        <!-- Seta Direita (PC) -->
+        <button 
+          id="btn-category-next" 
+          type="button"
+          aria-label="Rolar categorias para a direita"
+          onclick="scrollCategories(220)"
+          class="hidden md:flex items-center justify-center flex-shrink-0 ml-1.5 w-8 h-8 rounded-full bg-gray-900/95 border border-gray-700 hover:border-amber-500 text-gray-300 hover:text-amber-400 shadow-md backdrop-blur transition-all cursor-pointer"
+        >
+          <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+      </div>
     </div>
   </div>
 
