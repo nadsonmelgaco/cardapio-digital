@@ -20,8 +20,8 @@
   },
   "categories": [
     { "id": "pratos", "name": "Pratos (Jantinhas)", "icon": "🍽️" },
+    { "id": "porcoes", "name": "Porções", "icon": "🍟" },
     { "id": "espetos", "name": "Espetos", "icon": "🍢" },
-    { "id": "acompanhamentos", "name": "Acompanhamentos", "icon": "🥣" },
     { "id": "bebidas", "name": "Bebidas", "icon": "🥤" }
   ],
   "items": [
@@ -60,6 +60,42 @@
       "badgeColor": "blue",
       "available": true,
       "tags": ["Completa", "~290g", "1 Espeto"]
+    },
+    {
+      "id": "4",
+      "categoryId": "porcoes",
+      "name": "Batata Frita P (250g)",
+      "description": "Batata frita crocante por fora e macia por dentro, sequinha e temperada no ponto ideal.",
+      "price": 15.00,
+      "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=600&q=80",
+      "badge": "Crocante",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["250g", "Individual"]
+    },
+    {
+      "id": "5",
+      "categoryId": "porcoes",
+      "name": "Batata Frita G (500g)",
+      "description": "Porção generosa de batata frita crocante por fora e macia por dentro. Ideal para compartilhar na mesa!",
+      "price": 30.00,
+      "image": "https://images.unsplash.com/photo-1630384060421-cb20d0e0649d?auto=format&fit=crop&w=600&q=80",
+      "badge": "Compartilhar",
+      "badgeColor": "purple",
+      "available": true,
+      "tags": ["500g", "Família"]
+    },
+    {
+      "id": "6",
+      "categoryId": "porcoes",
+      "name": "Porção de Tomate Especial",
+      "description": "Tomate fresco picado, molho especial da casa, deliciosa farofa de feijão e 1 espeto acompanhado à sua escolha.",
+      "price": 13.00,
+      "image": "https://images.unsplash.com/photo-1592417817098-8f3d69109853?auto=format&fit=crop&w=600&q=80",
+      "badge": "Especial",
+      "badgeColor": "emerald",
+      "available": true,
+      "tags": ["Tomate Fresco", "1 Espeto"]
     }
   ]
 }
