@@ -96,6 +96,66 @@
       "badgeColor": "emerald",
       "available": true,
       "tags": ["Tomate Fresco", "1 Espeto"]
+    },
+    {
+      "id": "7",
+      "categoryId": "espetos",
+      "name": "Espeto de Boi (~100g)",
+      "description": "Carne bovina macia, suculenta e assada na brasa no ponto ideal.",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80",
+      "badge": "Clássico",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["Carne Bovina", "100g", "Na Brasa"]
+    },
+    {
+      "id": "8",
+      "categoryId": "espetos",
+      "name": "Espeto de Frango (~150g)",
+      "description": "Filezinho de frango suculento, macio e bem temperado, douradinho na brasa.",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=600&q=80",
+      "badge": "Douradinho",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["Frango", "150g", "Na Brasa"]
+    },
+    {
+      "id": "9",
+      "categoryId": "espetos",
+      "name": "Espeto de Linguiça Caseira (~100g)",
+      "description": "Linguiça de boi artesanal caseira, levemente apimentada e cheia de sabor.",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?auto=format&fit=crop&w=600&q=80",
+      "badge": "Artesanal",
+      "badgeColor": "red",
+      "available": true,
+      "tags": ["Linguiça de Boi", "Levemente Apimentada", "100g"]
+    },
+    {
+      "id": "10",
+      "categoryId": "espetos",
+      "name": "Espeto de Coração (~70g)",
+      "description": "Coração de galinha macio e suculento com aquele tempero especial inconfundível.",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
+      "badge": "Tradicional",
+      "badgeColor": "purple",
+      "available": true,
+      "tags": ["Coração", "70g", "Na Brasa"]
+    },
+    {
+      "id": "11",
+      "categoryId": "espetos",
+      "name": "Espeto Misto Especial (~150g)",
+      "description": "A melhor combinação: cubos de boi, frango suculento, linguiça e pétalas de cebola assados juntos.",
+      "price": 9.00,
+      "image": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=600&q=80",
+      "badge": "Mais Pedido",
+      "badgeColor": "amber",
+      "available": true,
+      "tags": ["Boi + Frango + Linguiça", "150g", "Favorito"]
     }
   ]
 }
