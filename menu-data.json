@@ -2,7 +2,7 @@
   "restaurant": {
     "name": "Jantinha da Praça",
     "tagline": "Sabor que vicia",
-    "logo": "assets/images/logo-jantinha.jpg",
+    "logo": "assets/images/logo-jantinha.jpeg",
     "banner": "assets/images/estabelecimento-praca.jpeg",
     "hours": "Domingo a Quinta: 18h30 às 23h00",
     "address": "Praça Afonso Martins, Quiosque 06",
@@ -19,10 +19,26 @@
     "googleSheetCsvUrl": ""
   },
   "categories": [
-    { "id": "pratos", "name": "Pratos (Jantinhas)", "icon": "🍽️" },
-    { "id": "porcoes", "name": "Porções", "icon": "🍟" },
-    { "id": "espetos", "name": "Espetos", "icon": "🍢" },
-    { "id": "bebidas", "name": "Bebidas", "icon": "🥤" }
+    {
+      "id": "pratos",
+      "name": "Pratos (Jantinhas)",
+      "icon": "🍽️"
+    },
+    {
+      "id": "porcoes",
+      "name": "Porções",
+      "icon": "🍟"
+    },
+    {
+      "id": "espetos",
+      "name": "Espetos",
+      "icon": "🍢"
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "icon": "🥤"
+    }
   ],
   "items": [
     {
@@ -35,7 +51,11 @@
       "badge": "Mais Pedido",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["Completa", "~750g", "1 Espeto"]
+      "tags": [
+        "Completa",
+        "~750g",
+        "1 Espeto"
+      ]
     },
     {
       "id": "2",
@@ -47,7 +67,11 @@
       "badge": "Destaque",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["Completa", "~430g", "1 Espeto"]
+      "tags": [
+        "Completa",
+        "~430g",
+        "1 Espeto"
+      ]
     },
     {
       "id": "3",
@@ -59,7 +83,11 @@
       "badge": "Individual",
       "badgeColor": "blue",
       "available": true,
-      "tags": ["Completa", "~290g", "1 Espeto"]
+      "tags": [
+        "Completa",
+        "~290g",
+        "1 Espeto"
+      ]
     },
     {
       "id": "4",
@@ -71,7 +99,10 @@
       "badge": "Crocante",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["250g", "Individual"]
+      "tags": [
+        "250g",
+        "Individual"
+      ]
     },
     {
       "id": "5",
@@ -83,7 +114,10 @@
       "badge": "Compartilhar",
       "badgeColor": "purple",
       "available": true,
-      "tags": ["500g", "Família"]
+      "tags": [
+        "500g",
+        "Família"
+      ]
     },
     {
       "id": "6",
@@ -95,7 +129,10 @@
       "badge": "Especial",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["Tomate Fresco", "1 Espeto"]
+      "tags": [
+        "Tomate Fresco",
+        "1 Espeto"
+      ]
     },
     {
       "id": "7",
@@ -107,7 +144,11 @@
       "badge": "Clássico",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["Carne Bovina", "100g", "Na Brasa"]
+      "tags": [
+        "Carne Bovina",
+        "100g",
+        "Na Brasa"
+      ]
     },
     {
       "id": "8",
@@ -119,7 +160,11 @@
       "badge": "Douradinho",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["Frango", "150g", "Na Brasa"]
+      "tags": [
+        "Frango",
+        "150g",
+        "Na Brasa"
+      ]
     },
     {
       "id": "9",
@@ -131,7 +176,11 @@
       "badge": "Artesanal",
       "badgeColor": "red",
       "available": true,
-      "tags": ["Linguiça de Boi", "Levemente Apimentada", "100g"]
+      "tags": [
+        "Linguiça de Boi",
+        "Levemente Apimentada",
+        "100g"
+      ]
     },
     {
       "id": "10",
@@ -143,7 +192,11 @@
       "badge": "Tradicional",
       "badgeColor": "purple",
       "available": true,
-      "tags": ["Coração", "70g", "Na Brasa"]
+      "tags": [
+        "Coração",
+        "70g",
+        "Na Brasa"
+      ]
     },
     {
       "id": "11",
@@ -155,7 +208,11 @@
       "badge": "Mais Pedido",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["Boi + Frango + Linguiça", "150g", "Favorito"]
+      "tags": [
+        "Boi + Frango + Linguiça",
+        "150g",
+        "Favorito"
+      ]
     },
     {
       "id": "12",
@@ -167,7 +224,10 @@
       "badge": "Gelada",
       "badgeColor": "red",
       "available": true,
-      "tags": ["Lata 350ml", "Refrigerante"]
+      "tags": [
+        "Lata 350ml",
+        "Refrigerante"
+      ]
     },
     {
       "id": "13",
@@ -179,7 +239,10 @@
       "badge": "Zero Açúcar",
       "badgeColor": "gray",
       "available": true,
-      "tags": ["Lata 350ml", "Sem Açúcar"]
+      "tags": [
+        "Lata 350ml",
+        "Sem Açúcar"
+      ]
     },
     {
       "id": "14",
@@ -191,7 +254,10 @@
       "badge": "Gelada",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["Lata 350ml", "Guaraná"]
+      "tags": [
+        "Lata 350ml",
+        "Guaraná"
+      ]
     },
     {
       "id": "15",
@@ -203,7 +269,10 @@
       "badge": "Zero Açúcar",
       "badgeColor": "gray",
       "available": true,
-      "tags": ["Lata 350ml", "Sem Açúcar"]
+      "tags": [
+        "Lata 350ml",
+        "Sem Açúcar"
+      ]
     },
     {
       "id": "16",
@@ -215,7 +284,10 @@
       "badge": "Gelada",
       "badgeColor": "purple",
       "available": true,
-      "tags": ["Lata 350ml", "Fanta"]
+      "tags": [
+        "Lata 350ml",
+        "Fanta"
+      ]
     },
     {
       "id": "17",
@@ -227,7 +299,10 @@
       "badge": "Gelada",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["Lata 350ml", "Fanta"]
+      "tags": [
+        "Lata 350ml",
+        "Fanta"
+      ]
     },
     {
       "id": "18",
@@ -239,7 +314,10 @@
       "badge": "Gelada",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["Lata 350ml", "Limão"]
+      "tags": [
+        "Lata 350ml",
+        "Limão"
+      ]
     },
     {
       "id": "19",
@@ -251,7 +329,10 @@
       "badge": "Garrafa 600ml",
       "badgeColor": "red",
       "available": true,
-      "tags": ["600ml", "Individual / Dupla"]
+      "tags": [
+        "600ml",
+        "Individual / Dupla"
+      ]
     },
     {
       "id": "20",
@@ -259,11 +340,14 @@
       "name": "Coca-Cola Zero 600ml",
       "description": "Garrafa de Coca-Cola Zero 600ml sem açúcar, servida trincando de gelada.",
       "price": 10.00,
-      "image": "assets/images/coca-garrafa.jpg",
+      "image": "assets/images/coca-garrafa-zero600.jpg",
       "badge": "Zero Açúcar",
       "badgeColor": "gray",
       "available": true,
-      "tags": ["600ml", "Sem Açúcar"]
+      "tags": [
+        "600ml",
+        "Sem Açúcar"
+      ]
     },
     {
       "id": "21",
@@ -275,7 +359,10 @@
       "badge": "1 Litro",
       "badgeColor": "red",
       "available": true,
-      "tags": ["1L", "Garrafa"]
+      "tags": [
+        "1L",
+        "Garrafa"
+      ]
     },
     {
       "id": "22",
@@ -283,11 +370,14 @@
       "name": "Coca-Cola Zero 1 Litro",
       "description": "Garrafa de Coca-Cola Zero Açúcar 1 Litro bem gelada.",
       "price": 12.00,
-      "image": "assets/images/coca-garrafa.jpg",
+      "image": "assets/images/coca-garrafa-zero600.jpg",
       "badge": "Zero 1L",
       "badgeColor": "gray",
       "available": true,
-      "tags": ["1L", "Sem Açúcar"]
+      "tags": [
+        "1L",
+        "Sem Açúcar"
+      ]
     },
     {
       "id": "23",
@@ -295,11 +385,14 @@
       "name": "Guaraná Antarctica 1 Litro",
       "description": "Garrafa de Guaraná Antarctica 1 Litro, refrescância para a mesa toda.",
       "price": 10.00,
-      "image": "assets/images/guarana-lata.jpg",
+      "image": "assets/images/guarana-1L.jpg",
       "badge": "1 Litro",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["1L", "Guaraná"]
+      "tags": [
+        "1L",
+        "Guaraná"
+      ]
     },
     {
       "id": "24",
@@ -307,11 +400,14 @@
       "name": "Guaraná Antarctica 2 Litros",
       "description": "Garrafa de Guaraná Antarctica 2 Litros tamanho família, bem gelada.",
       "price": 15.00,
-      "image": "assets/images/guarana-lata.jpg",
+      "image": "assets/images/guarana-2L.jpg",
       "badge": "Família 2L",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["2L", "Família"]
+      "tags": [
+        "2L",
+        "Família"
+      ]
     },
     {
       "id": "25",
@@ -319,11 +415,14 @@
       "name": "Coca-Cola 2 Litros",
       "description": "Garrafa de Coca-Cola 2 Litros tradicional tamanho família, geladíssima.",
       "price": 15.00,
-      "image": "assets/images/coca-garrafa.jpg",
+      "image": "assets/images/coca2L.jpg",
       "badge": "Família 2L",
       "badgeColor": "red",
       "available": true,
-      "tags": ["2L", "Família"]
+      "tags": [
+        "2L",
+        "Família"
+      ]
     },
     {
       "id": "26",
@@ -335,7 +434,10 @@
       "badge": "Clássica Vidro",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["KS Vidro 290ml", "Tradição"]
+      "tags": [
+        "KS Vidro 290ml",
+        "Tradição"
+      ]
     },
     {
       "id": "27",
@@ -347,7 +449,11 @@
       "badge": "Leve",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["500ml", "Limão", "Zero"]
+      "tags": [
+        "500ml",
+        "Limão",
+        "Zero"
+      ]
     },
     {
       "id": "28",
@@ -359,7 +465,11 @@
       "badge": "Limoneto",
       "badgeColor": "emerald",
       "available": true,
-      "tags": ["500ml", "Cítrico", "Zero"]
+      "tags": [
+        "500ml",
+        "Cítrico",
+        "Zero"
+      ]
     },
     {
       "id": "29",
@@ -371,7 +481,11 @@
       "badge": "Fruta",
       "badgeColor": "red",
       "available": true,
-      "tags": ["Suco", "Goiaba", "Sem Gás"]
+      "tags": [
+        "Suco",
+        "Goiaba",
+        "Sem Gás"
+      ]
     },
     {
       "id": "30",
@@ -383,7 +497,11 @@
       "badge": "Fruta",
       "badgeColor": "amber",
       "available": true,
-      "tags": ["Suco", "Maracujá", "Sem Gás"]
+      "tags": [
+        "Suco",
+        "Maracujá",
+        "Sem Gás"
+      ]
     }
   ]
 }
