@@ -502,6 +502,40 @@
         "Maracujá",
         "Sem Gás"
       ]
+    },
+    {
+      "id": "31",
+      "categoryId": "bebidas",
+      "name": "Água Mineral Midas 500ml (Sem Gás)",
+      "description": "Água mineral natural Midas 500ml sem gás, pura, leve e servida bem gelada.",
+      "price": 3.00,
+      "image": "assets/images/agua-midas-sem-gas.jpg",
+      "badge": "Sem Gás",
+      "badgeColor": "blue",
+      "available": true,
+      "tags": [
+        "500ml",
+        "Água Mineral",
+        "Sem Gás",
+        "Midas"
+      ]
+    },
+    {
+      "id": "32",
+      "categoryId": "bebidas",
+      "name": "Água Mineral Midas 500ml (Com Gás)",
+      "description": "Água mineral natural Midas 500ml gaseificada, super refrescante e servida bem gelada.",
+      "price": 4.00,
+      "image": "assets/images/agua-midas-com-gas.jpg",
+      "badge": "Com Gás",
+      "badgeColor": "red",
+      "available": true,
+      "tags": [
+        "500ml",
+        "Água Mineral",
+        "Com Gás",
+        "Midas"
+      ]
     }
   ]
 }
