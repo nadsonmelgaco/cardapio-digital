@@ -153,8 +153,8 @@ function updateCategoryNavButtons() {
 function getCategoryBtnClass(isActive) {
   return `px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 ${
     isActive 
-      ? 'bg-amber-500 text-gray-950 shadow-md shadow-amber-500/20 scale-105' 
-      : 'bg-gray-900 text-gray-400 hover:text-white hover:bg-gray-800 border border-gray-800/80'
+      ? 'bg-amber-500 text-[#150f0c] shadow-md shadow-amber-500/20 scale-105 font-bold' 
+      : 'bg-[#20140f] text-amber-200/80 hover:text-white hover:bg-[#2b1912] border border-amber-900/40'
   }`;
 }
 
@@ -205,10 +205,10 @@ function renderMenuItems() {
         section.className = 'space-y-3';
         
         section.innerHTML = `
-          <div class="flex items-center gap-2 pb-1 border-b border-gray-800">
+          <div class="flex items-center gap-2 pb-1 border-b border-amber-950/60">
             <span class="text-lg">${cat.icon || '🍽️'}</span>
-            <h2 class="text-base font-bold text-gray-200 tracking-wide">${cat.name}</h2>
-            <span class="text-xs text-gray-500 ml-auto font-mono">${itemsInCat.length}</span>
+            <h2 class="text-base font-bold text-amber-100 tracking-wide">${cat.name}</h2>
+            <span class="text-xs text-amber-400/60 ml-auto font-mono">${itemsInCat.length}</span>
           </div>
           <div class="grid grid-cols-1 gap-3">
             ${itemsInCat.map(renderItemCard).join('')}
@@ -236,9 +236,9 @@ function renderItemCard(item) {
 
   return `
     <article onclick="openItemModal('${item.id}')" 
-             class="group bg-gray-900/70 hover:bg-gray-900 border border-gray-800/80 hover:border-gray-700/80 rounded-2xl p-3 sm:p-4 flex gap-3.5 transition-all duration-200 cursor-pointer shadow-sm active:scale-[0.99]">
+             class="group bg-[#1e130f]/80 hover:bg-[#251713] border border-amber-900/35 hover:border-amber-700/50 rounded-2xl p-3 sm:p-4 flex gap-3.5 transition-all duration-200 cursor-pointer shadow-sm active:scale-[0.99]">
       <!-- Imagem do Prato -->
-      <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shrink-0 bg-gray-950">
+      <div class="relative w-24 h-24 sm:w-28 sm:h-28 rounded-xl overflow-hidden shrink-0 bg-[#150f0c]">
         <img src="${item.image || 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=300&q=80'}" 
              alt="${item.name}" 
              loading="lazy" 
@@ -249,13 +249,13 @@ function renderItemCard(item) {
       <!-- Detalhes do Prato -->
       <div class="flex flex-col justify-between flex-1 min-w-0">
         <div>
-          <h3 class="font-bold text-sm sm:text-base text-gray-100 group-hover:text-amber-400 transition-colors line-clamp-1">${item.name}</h3>
-          <p class="text-xs text-gray-400 mt-1 line-clamp-2 leading-relaxed">${item.description}</p>
+          <h3 class="font-bold text-sm sm:text-base text-amber-50 group-hover:text-amber-400 transition-colors line-clamp-1">${item.name}</h3>
+          <p class="text-xs text-amber-200/60 mt-1 line-clamp-2 leading-relaxed">${item.description}</p>
         </div>
 
         <div class="mt-2.5 flex items-center justify-between">
           <span class="text-sm sm:text-base font-extrabold text-amber-400 tracking-tight">${formatPrice(item.price)}</span>
-          <span class="text-[11px] font-semibold text-gray-500 group-hover:text-gray-300 flex items-center gap-0.5 transition-colors">
+          <span class="text-[11px] font-semibold text-amber-300/50 group-hover:text-amber-200 flex items-center gap-0.5 transition-colors">
             Ver detalhes <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
           </span>
         </div>
