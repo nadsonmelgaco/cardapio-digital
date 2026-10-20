@@ -53,9 +53,21 @@
     }
     /* Efeito de vidro (Glassmorphism) com tom da logo */
     .glass-nav {
-      background: rgba(26, 17, 13, 0.88);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
+      background: rgba(22, 14, 11, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+    }
+    /* Efeito de textura e iluminação de brasa/churrasco */
+    .bbq-bg {
+      background-image: 
+        radial-gradient(ellipse at 50% 0%, rgba(217, 119, 6, 0.15), transparent 70%),
+        radial-gradient(circle at 50% 45%, rgba(180, 83, 9, 0.08), transparent 60%),
+        linear-gradient(to bottom, rgba(21, 15, 12, 0.94) 0%, rgba(21, 15, 12, 0.96) 50%, rgba(17, 11, 9, 0.98) 100%),
+        url('assets/images/churrasco-bg.jpg');
+      background-size: cover;
+      background-position: center top;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
     }
     /* Animação suave para modal */
     @keyframes fadeIn {
@@ -67,14 +79,14 @@
     }
   </style>
 </head>
-<body class="bg-[#150f0c] text-amber-50 font-sans min-h-screen selection:bg-amber-500 selection:text-black pb-28">
+<body class="bbq-bg text-amber-50 font-sans min-h-screen selection:bg-amber-500 selection:text-black pb-28">
 
   <!-- ==================== BANNER / HERO ==================== -->
   <header class="relative w-full">
     <!-- Imagem de Capa com Gradiente -->
-    <div class="relative h-48 sm:h-64 w-full overflow-hidden">
+    <div class="relative h-48 sm:h-64 w-full overflow-hidden shadow-2xl">
       <img id="header-banner" src="" alt="Capa" class="w-full h-full object-cover">
-      <div class="absolute inset-0 bg-gradient-to-t from-[#150f0c] via-[#150f0c]/60 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#150f0c] via-[#150f0c]/50 to-transparent"></div>
     </div>
 
     <!-- Informações do Estabelecimento -->
